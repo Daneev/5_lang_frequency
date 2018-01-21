@@ -1,0 +1,61 @@
+Частота слов
+
+А вы знаете самые частые слова в русском языке?
+Это "и", "в" и "не". Остальных можно посмотреть на википедии.
+В этой задаче нужно написать скрипт, который составит такой список для любого текста,
+поданного на вход.
+Скрипт должен принимать на вход путь до текстового файла и выводить в консоль
+десять самых популярных слов в этом файле в порядке убывания частоты.
+Потом можно попробовать скормить ему разные тексты. "Война и мир".
+Всю Википедию. Кстати, такой скрипт должен нормально работать не только с русским,
+но и с другими языками.
+
+Установите соответствие между текстами A—G и заголовками 1—8. Занесите свои ответы в таблицу. Используйте каждую цифру только один раз. В задании один заголовок лишний.
+
+1. Memorable moments
+2. Magnificent landscape
+3. Family secret
+4. Secluded spot for escape
+5. Not only for passive holidays
+6. Let yourself plunge into calm atmosphere
+7. Strict restrictions on visiting time
+8. Not always as peaceful as imagined
+
+A. Imagine a beach; a quiet place, with only the noise of the sea and the gulls in the background. There are boats floating near the shore and a few people swimming in the water next to them. It’s a hot day, and there are some people lying on the sand enjoying the sunshine and slowly going brown. There are no shops, no people making noises, no loud music, everything is peaceful. There is just the sea, the sun, and the beach; a little paradise.
+
+B. The beach is on the south coast of Scotland, near a little town called Gatehouse of Fleet in the county of Dumfries and Galloway. 22 years ago my family and I found this place for the first time and we have never really left it. Every year in the summer while other people go on holiday to foreign countries and exotic places, we go to our private paradise and relax. There is a little campsite with tents and caravans next to the beach, and this becomes our home for one month every year.
+
+C. For a child a beach is a wonderful place. Here I found lots of space to run and play on the sand or to swim in the water. Being a campsite there were always lots of other families with children to play with. Another of my favourite activities was climbing on the rocks and cliffs around the beach. Rock pools were very educational places where I used to study the little fish and sea animals. Silence was also important; at school I was always surrounded by people and noise but the beach gave me the chance to be on my own and think, or read, away from anyone else.
+
+D. Although the sea can be beautiful, this beach is sometimes a dangerous place to be. When the weather is bad there are often storms with strong winds. When this happens the waves can get up to 2—3 metres high — definitely not weather for swimming. Every year some of the boats anchored on the beach are lost because the sea is so rough. I remember holding down our tent to stop the wind blowing it away on many occasions! However, if the waves weren’t too high all the children (and some adults) used to go swimming in life jackets, as it was very exciting.
+
+E. Sailing is a very serious activity in the UK, and this beach is no different. There are large racing boats for three or more people, smaller boats (such as the Topper) for just one or two people, fishing boats and windsurfers. In fact people on this beach are willing to try any type of water-sport; water skiing, speed boating, even the recent sport of sail surfing is becoming popular. Over the years my family has had 4 different boats, from a small Topper to a large Caprice for racing. We have sailed, raced, and fished off the boats, and have even capsized in bad weather a few times.
+
+F. If this beach had been next to a town or near a popular tourist area I don’t think we would have continued going there. But its location is very beautiful indeed. It’s in the middle of green countryside with many different types of plants and flowers, and in the background the hills of Galloway can be seen. Lots of photographers and artists come to the area (also known as the Solway) because they can capture such beautiful scenery.
+
+G. Even after 22 years, the beach is still a sanctuary for me. It’s a place away from the rest of the world where I can forget about life’s problems, and just relax. In today’s modern, busy world, everyone should have a place like this.
+
+Прочитайте текст и выполните задания 20–24.
+
+(1) Елку и танцы в клубе художников я, конечно, не стану подробно описывать; всё это было уже давно и в свое время описано, так что я сам прочел с большим удовольствием в других фельетонах. (2) Скажу лишь, что слишком давно перед тем нигде не был, ни в одном собрании, и долго жил уединенно.
+
+(3) Сначала танцевали дети, все в прелестных костюмах. (4) Любопытно проследить, как самые сложные понятия прививаются к ребенку совсем незаметно, и он, еще не умея связать двух мыслей, великолепно иногда понимает самые глубокие жизненные вещи. (5) Один ученый немец сказал, что всякий ребенок, достигая первых трех лет своей жизни, уже приобретает целую треть тех идей и познаний, с которыми ляжет стариком в могилу. (6) Тут были даже шестилетние дети, но я наверно знаю, что они уже в совершенстве понимали: почему и зачем они приехали сюда, разряженные в такие дорогие платьица, а дома ходят замарашками (при теперешних средствах среднего общества — непременно замарашками). (7) Они наверно уже понимают, что так именно и надо, что это вовсе не уклонение, а нормальный закон природы. (8) Конечно, на словах не выразят, но внутренне знают, а это, однако же, чрезвычайно сложная мысль.
+
+(9) Из детей мне больше понравились самые маленькие; очень были милы и развязны. (10) Постарше уже развязны с некоторою дерзостью. (11) Разумеется, всех развязнее и веселее была будущая средина и бездарность, это уже общий закон: средина всегда развязна, как в детях, так и в родителях. (12) Более даровитые и обособленные из детей всегда сдержаннее, или если уж веселы, то с непременной повадкой вести за собою других и командовать. (13) Жаль еще тоже, что детям теперь так всё облегчают — не только всякое изучение, всякое приобретение знаний, но даже игру и игрушки. (14) Чуть только ребенок станет лепетать первые слова, и уже тотчас же начинают его облегчать. (15) Вся педагогика ушла теперь в заботу об облегчении. (16) Иногда облегчение вовсе не есть развитие, а, даже напротив, есть отупление. (17) Две-три мысли, два-три впечатления, поглубже выжитые в детстве, собственным усилием (а если хотите, так и страданием), проведут ребенка гораздо глубже в жизнь, чем самая облегченная школа, из которой сплошь да рядом выходит ни то ни сё, ни доброе ни злое, даже и в разврате не развратное, и в добродетели не добродетельное.
+
+(18) Что устрицы, пришли? О радость!
+(19) Летит обжорливая младость
+Глотать...
+
+(20) Вот эта-то «обжорливая младость» (единственный дрянной стих у Пушкина потому, что высказан совсем без иронии, а почти с похвалой) — вот эта-то обжорливая младость из чего-нибудь да делается же? (21) Скверная младость и нежелательная, и я уверен, что слишком облегченное воспитание чрезвычайно способствует ее выделке; а у нас уж как этого добра много!
+
+(22) Но мне всё чрезвычайно нравилось, и если бы только не толкались подростки, то всё обошлось бы к полному удовольствию. (23) В самом деле, взрослые все празднично и изящно вежливы, а подростки (не дети, а подростки, будущие молодые люди, в разных мундирчиках, и которых была тьма) — толкаются нестерпимо, не извиняясь и проходя мимо с полным правом. (24) Меня толкнули раз пятьдесят; может быть, их так тому и учат для развития в них развязности. (25) Тем не менее мне всё нравилось, с долгой отвычки, несмотря даже на страшную духоту, на электрические солнца и на неистовые командные крики балетного распорядителя танцев.
+
+(26) Я взял на днях один номер «Петербургской газеты» и в нем прочел корреспонденцию из Москвы о скандалах на праздниках в дворянском собрании, в артистическом кружке, в театре, в маскараде и проч. (27) Если только верить корреспонденту (ибо корреспондент, возвещая о пороке, мог с намерением умолчать о добродетели), то общество наше никогда еще не было ближе к скандалу, как теперь. (28) И странно: отчего это, еще с самого моего детства, и во всю мою жизнь, чуть только я попадал в большое праздничное собрание русских людей, тотчас всегда мне начинало казаться, что это они только так, а вдруг возьмут, встанут и сделают дебош, совсем как у себя дома. (29) Мысль нелепая — и как я упрекал себя за эту мысль еще в детстве! (30) Мысль, не выдерживающая ни малейшей критики. (31) О, конечно, купцы и капитаны, о которых рассказывает правдивый корреспондент (я ему вполне верю), и прежде были, и всегда были, это тип неумирающий; но всё же они более боялись и скрывали чувства, а теперь, нет-нет, и вдруг прорвется, на самую середину, такой господин, который считает себя совсем уже в новом праве. (32) И бесспорно, что в последние двадцать лет даже ужасно много русских людей вдруг вообразили себе почему-то, что они получили полное право на бесчестье, и что это теперь уже хорошо, и что их за это теперь уже похвалят, а не выведут. (33) С другой стороны, я понимаю и то, что чрезвычайно приятно (о, многим, многим!) встать посреди собрания, где всё кругом, дамы, кавалеры и даже начальство так сладки в речах, так учтивы и равны со всеми, что как будто и в самом деле в Европе, — встать посреди этих европейцев и вдруг что-нибудь гаркнуть на чистейшем национальном наречии, — свиснуть кому-нибудь оплеуху, отмочить пакость девушке и вообще тут же среди залы нагадить: «Вот, дескать, вам за двухсотлетний европеизм, а мы вот они, все как были, никуда не исчезли!» (34) Это приятно. (35) Но всё же дикарь ошибется: его не признают и выведут.(По Ф. М. Достоевскому ^{*}
+​∗
+​​ )
+^{*}
+​∗
+​​ Федор Михайлович Достоевский (1821—1881) — классик отечественной литературы.
+
+Среди предложений 14—34 найдите такое(-ие), которое(-ые) связано(-ы) с предыдущим с помощью подчинительного союза и частицы. Запишите номер(-а) этого(-их) предложения(-ий) подряд без пробелов, запятых и других знаков препинания в порядке возрастания.
