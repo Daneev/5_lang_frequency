@@ -1,21 +1,19 @@
 import itertools
-import os
 import re
 import sys
 
 
 def load_data(filepath):
-
-    if not os.path.exists(filepath):
+    try:
+        with open(filepath, 'r', encoding='utf-8') as file:
+            return file.read()
+    except FileNotFoundError:
         print("There is no file in the specified path.")
-        return None
-
-    with open(filepath, 'r', encoding='utf-8') as file:
-        return file.read()
+        quit()
 
 
 def removing_punctuation(text):
-    list_clr_word = [re.sub(r'[^\w\s]+', '', s) for s in text.split()]
+    list_clr_word = [re.sub(r'[^\w\s]+|[\d]+', '', s) for s in text.split()]
     return list_clr_word
 
 
@@ -34,15 +32,14 @@ def get_most_frequent_words(text):
 
 def print_words(words):
     for x, y in list(words): print(x, y)
-    return None
+
 
 def get_path_data():
     if len(sys.argv) > 1:
-        return sys.argv[1]  # возвращаем путь к файлу, если программу запустили с параметрами
+        return sys.argv[1]
 
     print("Введите путь до файла:")
-    return input()  # если программа запущена без параметров,
-    # ожидаем ввода пути к файлу с клавиатуры.
+    return input()
 
 
 if __name__ == '__main__':
