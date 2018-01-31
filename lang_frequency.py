@@ -13,25 +13,25 @@ def get_file():
 
 
 def removing_punctuation_from(text):
-    list_clr_word = [re.sub(r'[^\w\s]+|[\d]+|[_]+', r'', s) for s in text.split()]
-    return list_clr_word
+    """ To count the same words, you need to bring the text to the same register and clear of the punctuation """
+
+    text_lower = text.lower()
+    return [re.sub(r'[^\w\s]+|[\d]+|[_]+', r'', s) for s in text_lower.split()]
 
 
 def create_dict_freq_word(list_clr_word):
-    dict_freq_word = {i: list_clr_word.count(i) for i in list_clr_word}
-    return dict_freq_word
+    return {word: list_clr_word.count(word) for word in list_clr_word}
 
 
 def get_most_frequent_words(text, set_words_count=10):
-    dict_word_result = create_dict_freq_word(removing_punctuation_from(text))
-    ten_frequent_words = (itertools.islice(
-        [(dict_word_result[w], w) for w in sorted(dict_word_result, key=dict_word_result.get, reverse=True) if w != ''],
+    dict_freq_word = create_dict_freq_word(removing_punctuation_from(text))
+    return list(itertools.islice(
+        [(dict_freq_word[w], w) for w in sorted(dict_freq_word, key=dict_freq_word.get, reverse=True) if w != ''],
         set_words_count))
-    return ten_frequent_words
 
 
 def print_result_words(words):
-    for x, y in list(words): print(x, y)
+    for x, y in words: print(x, y)
 
 
 if __name__ == '__main__':
